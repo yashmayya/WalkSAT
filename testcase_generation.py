@@ -4,7 +4,7 @@ import itertools
 import random
 import time
 
-from assignment2 import GetClauseValue,Satisfies,FindVariablesInFalseClauses,FlipRandomVariables,SatCount,FlipVariables,FindMinConflictingVVars,ModifiedWalkSAT,PrintModel
+from walksat import GetClauseValue,Satisfies,FindVariablesInFalseClauses,FlipRandomVariables,SatCount,FlipVariables,FindMinConflictingVVars,ModifiedWalkSAT,PrintModel
 
 start_time = time.time()
 

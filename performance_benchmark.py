@@ -2,7 +2,7 @@ import os
 import math
 import matplotlib.pyplot as plt
 
-from assignment2 import GetClauseValue,Satisfies,FindVariablesInFalseClauses,FlipRandomVariables,SatCount,FlipVariables,FindMinConflictingVVars,ModifiedWalkSAT,PrintModel
+from walksat import GetClauseValue,Satisfies,FindVariablesInFalseClauses,FlipRandomVariables,SatCount,FlipVariables,FindMinConflictingVVars,ModifiedWalkSAT,PrintModel
 
 ratios = [x/10 for x in range(5,81)]	#To be plotted on x axis
 runtime = []	#To be plotted on y axis
