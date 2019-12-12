@@ -46,3 +46,6 @@ Running **testcase_generation.py** creates 20 WalkSAT problems randomly for m/n 
 ### Performance graph
 
 Running **performance_benchmark.py** runs the modified WalkSAT implementation for each of the randomly generated WalkSAT problems and calculates average running time for each m/n ratio and plots it in a graph (using **matplotlib**)
+
+
+![Performance Graph](performance_graph.png?raw=true "Performance graph") 
