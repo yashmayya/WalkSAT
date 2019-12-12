@@ -20,7 +20,7 @@ for ratio in ratios:
 	i = 0
 	m = int(n*ratio)	#Number of clauses
 	
-	while i < 20:	#Generate 10 files
+	while i < 20:	#Generate 20 problem instances for each ratio
 		clauses = []
 		j = 0
 		
